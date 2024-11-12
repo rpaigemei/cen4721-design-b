@@ -1,0 +1,126 @@
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: calc(100vh - 80px);
+}
+
+.character {
+    width: 25%;
+}
+
+.customization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    margin: 0 50px;
+}
+
+.naming {
+    display: flex;
+    flex-direction: row;
+
+    margin: 50px;
+    padding: 0 20px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+.nameLabel {
+    font-family: "Lemon";
+    font-size: 20px;
+    color: #43B263;
+
+    margin-bottom: 10px;
+}
+
+.nameInput {
+    padding: 10px;
+    border: 2px solid #43B263;
+    border-radius: 10px;
+    background-color: #B4DFC1;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sliderLabelLeft {
+    font-family: "Lemon";
+    font-size: 16px;
+    color: #43B263;
+    text-align: right;
+
+    width: 150px;
+    padding: 10px 15px;
+}
+
+.sliderLabelRight {
+    font-family: "Lemon";
+    font-size: 16px;
+    color: #43B263;
+    text-align: left;
+
+    width: 150px;
+    padding: 10px 15px;
+}
+
+.doneButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    padding: 10px;
+    margin: 50px;
+
+    background-color: #43B263;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+
+    transition: transform 0.5s;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+.doneText {
+    font-family: "Lemon";
+    font-size: 20px;
+
+    a:link {
+        text-decoration: none; 
+        color: #FFFFFF;
+    } 
+    a:visited { 
+        text-decoration: none; 
+        color: #FFFFFF;
+    }
+}

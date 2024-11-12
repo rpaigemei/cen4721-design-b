@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import { Route, Routes } from 'react-router-dom';
+
+import Home from './pages/Home.js';
+import Quiz from './pages/Quiz.js';
+import Create from './pages/Create.js';
+import End from './pages/End.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Routes>
+        <Route path='/' element={ <Home /> } />
+        <Route path='/quiz' element={ <Quiz /> } />
+        <Route path='/create' element={ <Create /> } />
+        <Route path='/end' element={ <End /> } />
+      </Routes>
+    </Fragment>
   );
 }
 
 export default App;
+
+/*
+<Slider
+  aria-label="Temperature"
+  defaultValue={30}
+  valueLabelDisplay="auto"
+  shiftStep={30}
+  step={10}
+  marks
+  min={0}
+  max={100}
+/>
+*/

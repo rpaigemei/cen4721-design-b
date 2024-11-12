@@ -1,0 +1,22 @@
+.header {
+    height: 80px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    
+    font-family: "Leckerli One";
+    font-size: 48px;
+
+    a:link {
+        text-decoration: none; 
+        color: #43B263;
+    }
+    
+    a:visited { 
+        text-decoration: none; 
+        color: #43B263;
+    }
+}
