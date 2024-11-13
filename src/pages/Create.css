@@ -55,41 +55,6 @@
     background-color: #B4DFC1;
 }
 
-.sliders {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-}
-
-.slider {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.sliderLabelLeft {
-    font-family: "Lemon";
-    font-size: 16px;
-    color: #43B263;
-    text-align: right;
-
-    width: 150px;
-    padding: 10px 15px;
-}
-
-.sliderLabelRight {
-    font-family: "Lemon";
-    font-size: 16px;
-    color: #43B263;
-    text-align: left;
-
-    width: 150px;
-    padding: 10px 15px;
-}
-
 .doneButton {
     display: flex;
     justify-content: center;

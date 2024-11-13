@@ -20,16 +20,3 @@ function App() {
 }
 
 export default App;
-
-/*
-<Slider
-  aria-label="Temperature"
-  defaultValue={30}
-  valueLabelDisplay="auto"
-  shiftStep={30}
-  step={10}
-  marks
-  min={0}
-  max={100}
-/>
-*/
