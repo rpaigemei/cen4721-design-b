@@ -1,0 +1,72 @@
+.selected {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    gap: 47px;
+
+    height: 100px;
+
+    margin-bottom: 20px;
+    padding: 0 30px;
+
+    border: 3px solid #ED6332;
+    border-radius: 20px;
+}
+
+.deselect {
+    position: absolute;
+    margin: -5px 0 0 50px;
+
+    color: #ED6332;
+
+    cursor: pointer;
+}
+
+.selectedIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    padding: 15px 15px 5px 15px;
+}
+
+.traits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+
+    width: 500px;
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.trait {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.traitText {
+    font-family: "Lemon";
+    font-size: 14px;
+    text-align: center;
+}
+
+.traitIcon {
+    font-size: 28px;
+    padding: 0 0 10px;
+}

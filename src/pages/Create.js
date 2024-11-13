@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import character from '../assets/character.png';
 import Header from "../components/Header";
 import Sliders from "../components/Sliders";
+import Grid from "../components/Grid";
 import './Create.css'
 
 function Create() {
@@ -29,7 +30,7 @@ function Create() {
                         </div>
                     </div>
 
-                    <Sliders />
+                    <Grid />
 
                     <div className="doneButton">
                         <div className="doneText">
