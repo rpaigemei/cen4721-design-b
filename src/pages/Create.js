@@ -13,7 +13,7 @@ function Create() {
             <Header />
 
             <div className="create">
-                <img src={character} className="character"/>
+                <img src={character} className="character" alt="character"/>
                 <div className="customization">
                     <div className="naming">
                         <div className="name">

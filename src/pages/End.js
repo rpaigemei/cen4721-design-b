@@ -11,7 +11,7 @@ function End() {
             <Header />
             
             <div className="end">
-                <img src={character} className="character"/>
+                <img src={character} className="character" alt="character"/>
 
                 <div className="restartButton">
                     <div className="restartText">
