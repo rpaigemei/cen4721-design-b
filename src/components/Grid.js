@@ -46,7 +46,7 @@ function Grid() {
         </div>
 
         <div>
-            {selectedTraits.length == 5 ? (
+            {selectedTraits.length === 5 ? (
                 <div className='traits'>
                     {traits.map((trait) => (
                         <div key={trait} className='trait'>

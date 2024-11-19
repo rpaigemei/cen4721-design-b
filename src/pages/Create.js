@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import character from '../assets/character.png';
 import Header from "../components/Header";
-import Sliders from "../components/Sliders";
 import Grid from "../components/Grid";
 import './Create.css'
 
